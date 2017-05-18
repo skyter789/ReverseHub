@@ -1,0 +1,44 @@
+inherited Form1_Macintosh: TForm1_Macintosh
+  DesignerMasterStyle = 0
+  inherited TabControl1: TTabControl
+    Sizes = (
+      489s
+      229s
+      489s
+      229s
+      489s
+      229s
+      489s
+      229s)
+    inherited TabItem1: TTabItem
+      ExplicitSize.cx = 73.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Label2: TLabel
+        Size.Height = 26.000000000000000000
+        TextSettings.Font.Family = 'Segoe Script'
+      end
+    end
+    inherited TabItem2: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+    end
+    inherited TabItem3: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+    end
+    inherited TabItem4: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Label4: TLabel
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+      end
+      inherited Memo1: TMemo
+        Viewport.Width = 425.000000000000000000
+        Viewport.Height = 105.000000000000000000
+      end
+      inherited Button2: TButton
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+      end
+    end
+  end
+end
